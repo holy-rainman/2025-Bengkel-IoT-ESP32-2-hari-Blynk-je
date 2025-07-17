@@ -18,7 +18,11 @@ void loop()
   { digitalWrite(led[0],HIGH);  delay(500);
     digitalWrite(led[0],LOW);   delay(500);
   }
-  delay(3000);
+ 
+  while(1)
+  { digitalWrite(led[1],HIGH);  delay(200);
+    digitalWrite(led[1],LOW);   delay(200);
+  } 
 }
 
 void trafficLight()
