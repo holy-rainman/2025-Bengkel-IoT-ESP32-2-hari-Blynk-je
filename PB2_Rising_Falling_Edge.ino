@@ -25,9 +25,9 @@ void setup()
 
 char txt[100];
 void loop() 
-{ if(PB2==1)
+{ if(pb2==1)
   { LEDG(1);  delay(500);
-    while(PB2==1)
+    while(pb2==1)
     { LEDY(1);
       LEDG(0);
     }
