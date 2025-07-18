@@ -1,15 +1,15 @@
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPL6Ph6HH6_E"
-#define BLYNK_TEMPLATE_NAME "Latihan IoT"
-#define BLYNK_AUTH_TOKEN "ozCIeidx7nX9VxJbYVYpF2XP5U7DX1wS"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
 BlynkTimer timer;
 
-char ssid[] = "JHChua@unifi";
-char pass[] = "adamdanial123";
+char ssid[] = "YOUR_SSID";
+char pass[] = "YOUR_PASSWORD";
 
 uint8_t LEDs[]={18,19,23,5};
 
