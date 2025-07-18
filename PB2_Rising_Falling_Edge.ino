@@ -26,13 +26,13 @@ void setup()
 char txt[100];
 void loop() 
 { if(pb2==1)
-  { LEDG(1);  delay(500);
+  { ledG(1);  delay(100);
     while(pb2==1)
-    { LEDY(1);
-      LEDG(0);
+    { ledY(1);
+      ledG(0);
     }
-    LEDR(1);  LEDY(0);  delay(500);
-    LEDR(0);
+    ledR(1);  ledY(0);  delay(500);
+    ledR(0);
   }
 }
 
