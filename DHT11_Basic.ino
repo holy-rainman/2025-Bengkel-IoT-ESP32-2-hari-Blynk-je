@@ -12,8 +12,8 @@ void loop()
 	if(error)
 		Serial.println(error);
 	else
-	{	Serial.println(temperature);
-		Serial.println(humidity);
+	{	Serial.print("Temperature: ");  Serial.print(temperature);
+		Serial.print("  Humidity: ");   Serial.println(humidity);
 	}
 	delay(3000);	
 }
